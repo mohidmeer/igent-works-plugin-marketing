@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Logo = () => {
   return (
     <div >
-      <div className="text-xl tracking-[0.3rem] ">Igent Works</div>
-    </div>
+      <Image src={'/logo.jpg'} alt='' width={300} height={100} className=''/>
+     </div>
   )
 }
 
